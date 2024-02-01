@@ -5,7 +5,7 @@ Create a bash script to run at every hour, saving system memory (RAM) usage to a
 Submit the content of your script, cronjob and a sample of the email sent, all in the folder for this exercise.
 - Script
 
-![script](script.png)
+![script](ramusage.png)
 
 - Cronjob
 
@@ -13,4 +13,4 @@ Submit the content of your script, cronjob and a sample of the email sent, all i
 
 - Email received
 
-![email](email.png)
+![mail](mail.png)
