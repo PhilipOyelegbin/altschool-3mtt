@@ -1,5 +1,5 @@
 ## Result of the terraform and ansible task
-For this task I made use of GCP not AWS as instructed below.
+For this task I made use of GCP not AWS as instructed below. Kindly click [here](https://youtu.be/_Ar8qjs-n0s) to watch the live demo.
 
 - Using Terraform, create 3 EC2 instances and put them behind an Elastic Load Balancer
 - Make sure the after applying your plan, Terraform exports the public IP addresses of the 3 instances to a file called host-inventory
