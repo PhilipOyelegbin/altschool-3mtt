@@ -1,0 +1,18 @@
+---
+- name: Setup an Apache Web Server
+  hosts: all
+  remote_user: vagrant
+  become: yes
+
+  tasks:
+  - name: Install Apache on the Server
+    apt:
+      name: apache2
+      state: present
+  - name: Set timezone to Africa/Lagos
+    ansible.builtin.timezone:
+      name: 'Africa/Lagos'
+  - name: Copy a custom index.html file to the servers
+    copy:
+      src: /vagrant/ansible/index.html
+      dest: /var/www/html/index.html
