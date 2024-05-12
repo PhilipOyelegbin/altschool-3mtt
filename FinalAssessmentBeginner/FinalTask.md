@@ -10,7 +10,9 @@
 
 - Prior to executing my Ansible [playbook](playbook.yml), I decided to perform a ping operation on the slave node. This was done using the host inventory file from the master node.
 
-- I ran the Ansible playbook and it executed successfully. The successful execution can be seen in the image below:
+![ping](pingslave.jpg)
+
+- I ran the Ansible playbook which executed the [lamp](lamp.sh) bash script and it executed successfully. The successful execution can be seen in the image below:
 
 ![playbook](playbook.jpg)
 
